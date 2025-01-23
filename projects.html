@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaun Projects</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="site_style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  </head>
+  <body class=projects>
+    <nav class="topnav">
+      <span class="logo-align">
+        <img
+          class="site-logo"
+          src="images/S_logo.png"
+          alt="logo"
+          width="40"
+          height="40"
+        />&emsp; <strong class="name-text">Shaun Sheffey</strong> &emsp;&emsp;
+        <aside class="job-title">Software Engineer</aside>
+      </span>
+      <span class="right-aligned">
+        <a href="home.html"> Home</a> &emsp;
+        <a class="current" href="projects.html"> Projects</a>&emsp;
+        <a href="contact.html"> Contact</a>
+      </span>
+      <button class="mobile-icon" onclick="mnav()">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="home.html"> Home</a>
+        <a class="current"href="projects.html"> Projects</a>
+        <a href="contact.html"> Contact</a>
+      </div>
+    </nav>
+    <br>
+    <span class="select-title"> Select Project
+        <select id="p-list" onchange="javascript:location.href = this.value">
+            <option value= "projects.html#chess-title">Knight Tour</option>
+            <option value= "projects.html#conv-title">Currency Converter</option>
+            <option value= "projects.html#int-title">Interpreter</option>
+        </select>
+    </span>
+    <section class="chess-sect">
+        <U>
+            <em id="chess-title">CHESSBOARD KNIGHT TOUR</em>
+        </U>
+        <p class="chess-desc">
+            The Knight's Tour is a problem where the knight visits every position on the board exactly once using backtracking.<br>
+            My implementation employed the usage of a recursive algorithm which arbitrarily selects the path with the least<br>
+            onward moves to complete the board. In order to rectify an erroneous path selection, I utilzed the the vector class<br>
+            and the iterator class to swiftly access board nodes and delete the path before recursively attempting a new one. 
+        </p>
+        <br>
+            <span>
+                <p class="skills"> <b>SKILLS DEMONSTRATED:</b>&ensp; C++, backtracking algorithm, problem-solving, alogrithm optimization</p>
+            </span>
+        </br>
+        <video width="400" height="240" controls>
+            <source src=./images/knight_dem.mp4 type="video/mp4">
+        </video>
+    </section>
+    
+    <section class="conv-sect">
+        <U>
+            <em id="conv-title">CURRENCY CONVERTER</em>
+        </U>
+        <p class="conv-desc">
+            The currency converter is constructed via a GUI. I created the structure utilizing the Tkinter library. <br>
+            I've also populated the conversion data in real time with currency symbols. The added bonus of my<br>
+            currency converter is that it is more user friendly with additional fields to enhance currency identification.
+        </p>
+        <br>
+            <span>
+                <p class="skills"> <b>SKILLS DEMONSTRATED:</b>&ensp; Python, Tkinter library proficiency, API import for GUI usage</p>
+            </span>
+        </br>
+        <video width="400" height="240" controls>
+            <source src=./images/currency_demo.mp4 type="video/mp4">
+        </video>
+    </section>
+
+    <section class="int-sect">
+        <U>
+            <em id="int-title">INTERPRETER</em>
+        </U>
+        <p class="int-desc">
+            The interpreter in antlr uses context-free grammars which can be parsed via an abstract syntax tree. <br>
+            This process is the basis for language creation.
+        </p>
+        <br>
+            <span>
+                <p class="skills"> <b>SKILLS DEMONSTRATED:</b>&ensp; Java, antlr familiarity, language design</p>
+            </span>
+        </br>
+        <video width="400" height="240" controls>
+            <source src=./images/interp_demo.mp4 type="video/mp4">
+        </video>
+    </section>
+    <script src="site_op.js"></script>
+  </body>
+</html>
