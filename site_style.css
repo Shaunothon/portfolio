@@ -1,0 +1,590 @@
+/* BACKGROUNDS */
+
+body.home {
+  background-image: url(images/hp2_background.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-family: Open Sans, Roboto, Helvetica;
+  margin-inline: auto;
+}
+body.projects {
+  background-image: url(images/project_bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-family: Open Sans, Roboto, Helvetica;
+  margin-inline: auto;
+}
+
+body.contact {
+  background-image: url(images/hp_background.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-family: Open Sans, Roboto, Helvetica;
+  color: white;
+  margin-inline: auto;
+}
+
+/*  NAVIGATION BAR */
+
+/* create navigation bar style */
+.topnav {
+  display: flex;
+  justify-content: space-between;
+}
+.site-logo {
+  background: none;
+}
+/* justify logo and name */
+.logo-align {
+  display: flex;
+  align-items: center;
+}
+/* justify site navigation */
+.right-aligned {
+  position: relative;
+  text-align: right;
+}
+/* hover mouse styling */
+.right-aligned a:hover,
+.mobile-menu a:hover {
+  background-color: aqua;
+  color: black;
+}
+/* hightlight current page tab */
+.right-aligned a.current,
+.mobile-menu a.current {
+  color: purple;
+}
+/* mobile icon */
+.mobile-icon {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background-color: darkgrey;
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  width: 150px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.mobile-menu a {
+  text-align: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid #333;
+}
+
+.mobile-menu a:last-child {
+  border-bottom: none;
+}
+
+.mobile-menu-icon:focus {
+  outline: none;
+}
+
+/*  HOME PAGE */
+
+/* About Me section styling */
+.name-header {
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+  padding-left: -100px;
+  font-size: 100px;
+}
+.about-me {
+  text-align: center;
+  position: relative;
+  bottom: -300px;
+  padding-left: 700px;
+  background-color: whitesmoke;
+  font-size: 30px;
+}
+
+/* personal photo image edit */
+.prof-shot {
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  clip-path: ellipse(50% 54%);
+}
+
+/*  PROJECTS PAGE */
+
+/* Chess */
+.chess-sect {
+  text-align: center;
+  position: relative;
+  bottom: -50px;
+  padding-left: 50px;
+}
+
+#chess-title {
+  font-size: 30px;
+  background-color: whitesmoke;
+}
+
+.chess-desc,
+.skills {
+  font-size: 18px;
+}
+
+/* Converter */
+.conv-sect {
+  text-align: center;
+  position: relative;
+  bottom: -100px;
+  padding-left: 50px;
+}
+
+#conv-title {
+  font-size: 30px;
+  background-color: whitesmoke;
+}
+
+.conv-desc,
+.skills {
+  font-size: 18px;
+}
+
+/* Interpreter */
+.int-sect {
+  text-align: center;
+  position: relative;
+  bottom: -150px;
+  padding-left: 50px;
+}
+
+#int-title {
+  font-size: 30px;
+  background-color: whitesmoke;
+}
+
+.int-desc,
+.skills {
+  font-size: 18px;
+}
+
+/* Dropdown */
+.select-title {
+  top: 0;
+  position: sticky;
+  font-size: 20px;
+  z-index: 999;
+}
+
+#p-list {
+  font-size: 15px;
+}
+/* CONTACT PAGE */
+
+/* Job Title */
+#hjob-title {
+  color: black;
+}
+
+/* Page Nav */
+.c-home,
+.c-projects {
+  color: white;
+}
+#c-contact {
+  color: lightblue;
+}
+
+/* title */
+.con-title {
+  text-align: center;
+  font-size: 50px;
+  background-color: black;
+}
+
+/* Contact logos */
+.logos {
+  position: absolute;
+  top: 350px;
+  padding-left: 300px;
+}
+.glogo,
+.llogo,
+.gitlogo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+/* SCREEN SIZE ADJUSTMENTS */
+
+/* Mobile Devices */
+@media screen and (max-width: 375px) {
+  /*  NAVIGATION BAR */
+
+  /* create navigation bar style */
+  .topnav {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+  }
+  .site-logo {
+    background: none;
+  }
+  /* justify logo and name */
+  .logo-align {
+    display: flex;
+    align-items: center;
+  }
+
+  .right-aligned {
+    display: none;
+  }
+
+  .mobile-icon {
+    display: block;
+  }
+  .mobile-menu.show {
+    display: flex;
+  }
+  /* home page */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .prof-shot {
+    position: relative;
+    margin: 20px auto;
+    top: -400px;
+    left: 65px;
+    width: 65%;
+    max-width: 300px;
+    clip-path: ellipse(50% 54%);
+    z-index: 1;
+  }
+
+  .name-header {
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    padding-left: -500px;
+    font-size: 50px;
+    writing-mode: horizontal-tb;
+    text-orientation: upright;
+    background-color: lightgray;
+  }
+
+  .about-me {
+    position: relative;
+    margin: 75px auto;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+  }
+  /* projects */
+
+  .chess-sect,
+  .conv-sect,
+  .int-sect {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .chess-sect img,
+  .conv-sect img,
+  .int-sect img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .chess-desc,
+  .conv-desc,
+  .int-desc {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+
+  select#p-list {
+    z-index: 10;
+    position: relative;
+  }
+
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+  /* contacts */
+  .logos {
+    position: relative;
+    top: 0;
+    padding-left: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  /* Style for each logo */
+  .glogo,
+  .llogo,
+  .gitlogo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+}
+
+/* larger mobiles */
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  /*  NAVIGATION BAR */
+
+  /* create navigation bar style */
+  .topnav {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+  }
+  .site-logo {
+    background: none;
+  }
+  /* justify logo and name */
+  .logo-align {
+    display: flex;
+    align-items: center;
+  }
+
+  .right-aligned {
+    display: none;
+  }
+
+  .mobile-icon {
+    display: block;
+  }
+  .mobile-menu.show {
+    display: flex;
+  }
+  /* home page */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .prof-shot {
+    position: relative;
+    margin: 20px auto;
+    top: -400px;
+    left: 18px;
+    width: 90%;
+    max-width: 500px;
+    clip-path: ellipse(50% 54%);
+    z-index: 1;
+  }
+
+  .name-header {
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    padding-left: -500px;
+    font-size: 50px;
+    writing-mode: horizontal-tb;
+    text-orientation: upright;
+    background-color: lightgray;
+  }
+
+  .about-me {
+    position: relative;
+    margin: 75px auto;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    top: 450px;
+  }
+  /* projects */
+
+  .chess-sect,
+  .conv-sect,
+  .int-sect {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .chess-sect img,
+  .conv-sect img,
+  .int-sect img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .chess-desc,
+  .conv-desc,
+  .int-desc {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+
+  select#p-list {
+    z-index: 10;
+    position: relative;
+  }
+
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+  /* contacts */
+  .logos {
+    position: relative;
+    top: 0;
+    padding-left: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  /* Style for each logo */
+  .glogo,
+  .llogo,
+  .gitlogo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+/* tablets and ipads */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /*  NAVIGATION BAR */
+
+  /* create navigation bar style */
+  .topnav {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+  }
+  .site-logo {
+    background: none;
+  }
+  /* justify logo and name */
+  .logo-align {
+    display: flex;
+    align-items: center;
+  }
+
+  .right-aligned {
+    display: none;
+  }
+
+  .mobile-icon {
+    display: block;
+  }
+  .mobile-menu.show {
+    display: flex;
+  }
+  /* home page */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .prof-shot {
+    position: relative;
+    margin: 20px auto;
+    top: -350px;
+    left: 200px;
+    width: 55%;
+    max-width: 500px;
+    clip-path: ellipse(50% 54%);
+    z-index: 1;
+  }
+
+  .name-header {
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    padding-left: -500px;
+    font-size: 50px;
+    writing-mode: horizontal-tb;
+    text-orientation: upright;
+    background-color: lightgray;
+  }
+
+  .about-me {
+    position: relative;
+    margin: 75px auto;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    top: 650px;
+  }
+  /* projects */
+
+  .chess-sect,
+  .conv-sect,
+  .int-sect {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .chess-sect img,
+  .conv-sect img,
+  .int-sect img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .chess-desc,
+  .conv-desc,
+  .int-desc {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+
+  select#p-list {
+    z-index: 10;
+    position: relative;
+  }
+
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+  /* contacts */
+  .logos {
+    position: relative;
+    top: 0;
+    padding-left: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  /* Style for each logo */
+  .glogo,
+  .llogo,
+  .gitlogo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
