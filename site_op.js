@@ -24,18 +24,6 @@ anime({
   direction: "alternate",
 });
 
-/* occupation dance animation (home) */
-anime({
-  targets: "#hjob-title",
-  translateX: 250,
-  scale: 1,
-  rotate: "1turn",
-  direction: "alternate",
-  loop: true,
-  duration: 3500,
-  easing: "easeInOutQuad",
-});
-
 /* Contacts */
 
 var tl = anime.timeline({
