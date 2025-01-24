@@ -387,9 +387,9 @@ body.contact {
   .prof-shot {
     position: relative;
     margin: 20px auto;
-    top: -400px;
-    left: 18px;
-    width: 90%;
+    top: -390px;
+    left: 35px;
+    width: 80%;
     max-width: 500px;
     clip-path: ellipse(50% 54%);
     z-index: 1;
