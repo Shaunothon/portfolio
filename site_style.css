@@ -606,3 +606,203 @@ body.contact {
     object-fit: cover;
   }
 }
+
+/* small laptops */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  /*  NAVIGATION BAR */
+
+  /* create navigation bar style */
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .site-logo {
+    background: none;
+  }
+  /* justify logo and name */
+  .logo-align {
+    display: flex;
+    align-items: center;
+  }
+  /* justify site navigation */
+  .right-aligned {
+    position: relative;
+    text-align: right;
+  }
+  /* hover mouse styling */
+  .right-aligned a:hover,
+  .mobile-menu a:hover {
+    background-color: aqua;
+    color: black;
+  }
+  /* hightlight current page tab */
+  .right-aligned a.current,
+  .mobile-menu a.current {
+    color: purple;
+  }
+  /* mobile icon */
+  .mobile-icon {
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+  }
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    background-color: darkgrey;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    width: 150px;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+
+  .mobile-menu a {
+    text-align: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #333;
+  }
+
+  .mobile-menu a:last-child {
+    border-bottom: none;
+  }
+
+  .mobile-menu-icon:focus {
+    outline: none;
+  }
+
+  /*  HOME PAGE */
+
+  /* About Me section styling */
+  .name-header {
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    padding-left: -100px;
+    font-size: 80px;
+  }
+  .about-me {
+    text-align: center;
+    position: relative;
+    bottom: -250px;
+    padding-left: 715px;
+    background-color: whitesmoke;
+    font-size: 30px;
+  }
+
+  /* personal photo image edit */
+  .prof-shot {
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    clip-path: ellipse(50% 54%);
+  }
+
+  /*  PROJECTS PAGE */
+
+  /* Chess */
+  .chess-sect {
+    text-align: center;
+    position: relative;
+    bottom: -50px;
+    padding-left: 50px;
+  }
+
+  #chess-title {
+    font-size: 30px;
+    background-color: whitesmoke;
+  }
+
+  .chess-desc,
+  .skills {
+    font-size: 18px;
+  }
+
+  /* Converter */
+  .conv-sect {
+    text-align: center;
+    position: relative;
+    bottom: -100px;
+    padding-left: 50px;
+  }
+
+  #conv-title {
+    font-size: 30px;
+    background-color: whitesmoke;
+  }
+
+  .conv-desc,
+  .skills {
+    font-size: 18px;
+  }
+
+  /* Interpreter */
+  .int-sect {
+    text-align: center;
+    position: relative;
+    bottom: -150px;
+    padding-left: 50px;
+  }
+
+  #int-title {
+    font-size: 30px;
+    background-color: whitesmoke;
+  }
+
+  .int-desc,
+  .skills {
+    font-size: 18px;
+  }
+
+  /* Dropdown */
+  .select-title {
+    top: 0;
+    position: sticky;
+    font-size: 20px;
+    z-index: 999;
+  }
+
+  #p-list {
+    font-size: 15px;
+  }
+  /* CONTACT PAGE */
+
+  /* Job Title */
+  #hjob-title {
+    color: black;
+  }
+
+  /* Page Nav */
+  .c-home,
+  .c-projects {
+    color: white;
+  }
+  #c-contact {
+    color: lightblue;
+  }
+
+  /* title */
+  .con-title {
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+  }
+
+  /* Contact logos */
+  .logos {
+    position: absolute;
+    top: 350px;
+    padding-left: 300px;
+  }
+  .glogo,
+  .llogo,
+  .gitlogo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+}
