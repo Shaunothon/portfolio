@@ -608,7 +608,7 @@ body.contact {
 }
 
 /* small laptops */
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
   /*  NAVIGATION BAR */
 
   /* create navigation bar style */
