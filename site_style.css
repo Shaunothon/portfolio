@@ -256,9 +256,16 @@ body.contact {
   .mobile-icon {
     display: block;
   }
+
+  .mobile-menu {
+    position: relative;
+    top: 0px;
+    right: 2px;
+  }
   .mobile-menu.show {
     display: flex;
   }
+
   /* home page */
   img {
     max-width: 100%;
@@ -317,7 +324,7 @@ body.contact {
     font-size: 14px;
   }
 
-  select#p-list {
+  #p-list {
     z-index: 10;
     position: relative;
   }
@@ -376,6 +383,13 @@ body.contact {
   .mobile-icon {
     display: block;
   }
+
+  .mobile-menu {
+    position: relative;
+    top: 0px;
+    right: 2px;
+  }
+
   .mobile-menu.show {
     display: flex;
   }
@@ -438,7 +452,7 @@ body.contact {
     font-size: 14px;
   }
 
-  select#p-list {
+  #p-list {
     z-index: 10;
     position: relative;
   }
@@ -495,6 +509,10 @@ body.contact {
 
   .mobile-icon {
     display: block;
+  }
+
+  .mobile-menu {
+    font-size: 35px;
   }
   .mobile-menu.show {
     display: flex;
@@ -558,7 +576,7 @@ body.contact {
     font-size: 14px;
   }
 
-  select#p-list {
+  #p-list {
     z-index: 10;
     position: relative;
   }
