@@ -1,0 +1,15 @@
+{
+    "redirects": [
+      {
+        "source": "/:path*",
+        "destination": "https://sheffeytech.com/:path*",
+        "has": [
+          {
+            "type": "host",
+            "value": "portfolio-mauve-one-76.vercel.app"
+          }
+        ],
+        "permanent": true
+      }
+    ]
+  }
