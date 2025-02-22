@@ -7,17 +7,10 @@
           {
             "type": "host",
             "value": "portfolio-mauve-one-76.vercel.app"
-          }
-        ],
-        "permanent": true
-      },
-      {
-        "source": "/:path*",
-        "destination": "https://sheffeytech.com/:path*",
-        "has": [
+          },
           {
             "type": "host",
-            "value": "portfolio-j283z2lmh-shaun-s-projects.vercel.app"
+            "value": "portfolio-mywh7fxnu-shaun-s-projects.vercel.app"
           }
         ],
         "permanent": true
