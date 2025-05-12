@@ -116,10 +116,16 @@ body.contact {
 
 /* personal photo image edit */
 .prof-shot {
+  position: relative;
+  margin-top: -250px;
+  margin-left: 100px;
+  clip-path: ellipse(50% 54%);
+  /*
   position: absolute;
   margin-top: 10px;
   margin-left: -100px;
   clip-path: ellipse(50% 54%);
+  */
 }
 
 /*  PROJECTS PAGE */
