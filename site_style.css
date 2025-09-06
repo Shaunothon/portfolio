@@ -130,20 +130,20 @@ body.contact {
 
 /*  PROJECTS PAGE */
 
-/* Chess */
-.chess-sect {
+/* AOK */
+.aok-sect {
   text-align: center;
   position: relative;
   bottom: -50px;
   padding-left: 50px;
 }
 
-#chess-title {
+#aok-title {
   font-size: 30px;
   background-color: whitesmoke;
 }
 
-.chess-desc,
+.aok-desc,
 .skills {
   font-size: 18px;
 }
@@ -166,11 +166,29 @@ body.contact {
   font-size: 18px;
 }
 
+/* Chess */
+.chess-sect {
+  text-align: center;
+  position: relative;
+  bottom: -150px;
+  padding-left: 50px;
+}
+
+#chess-title {
+  font-size: 30px;
+  background-color: whitesmoke;
+}
+
+.chess-desc,
+.skills {
+  font-size: 18px;
+}
+
 /* Interpreter */
 .int-sect {
   text-align: center;
   position: relative;
-  bottom: -150px;
+  bottom: -200px;
   padding-left: 50px;
 }
 
@@ -309,21 +327,24 @@ body.contact {
 
   .chess-sect,
   .conv-sect,
-  .int-sect {
+  .int-sect,
+  .aok-sect {
     padding-left: 10px;
     padding-right: 10px;
   }
 
   .chess-sect img,
   .conv-sect img,
-  .int-sect img {
+  .int-sect img,
+  .aok-sect img {
     max-width: 100%;
     height: auto;
   }
 
   .chess-desc,
   .conv-desc,
-  .int-desc {
+  .int-desc,
+  .aok-desc {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 14px;
@@ -437,21 +458,24 @@ body.contact {
 
   .chess-sect,
   .conv-sect,
-  .int-sect {
+  .int-sect,
+  .aok-sect {
     padding-left: 10px;
     padding-right: 10px;
   }
 
   .chess-sect img,
   .conv-sect img,
-  .int-sect img {
+  .int-sect img,
+  .aok-sect img {
     max-width: 100%;
     height: auto;
   }
 
   .chess-desc,
   .conv-desc,
-  .int-desc {
+  .int-desc,
+  .aok-desc {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 14px;
@@ -557,21 +581,24 @@ body.contact {
 
   .chess-sect,
   .conv-sect,
-  .int-sect {
+  .int-sect,
+  .aok-sect {
     padding-left: 10px;
     padding-right: 10px;
   }
 
   .chess-sect img,
   .conv-sect img,
-  .int-sect img {
+  .int-sect img,
+  .aok-sect img {
     max-width: 100%;
     height: auto;
   }
 
   .chess-desc,
   .conv-desc,
-  .int-desc {
+  .int-desc,
+  .aok-desc {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 14px;
@@ -705,20 +732,20 @@ body.contact {
 
   /*  PROJECTS PAGE */
 
-  /* Chess */
-  .chess-sect {
+  /* AOK */
+  .aok-sect {
     text-align: center;
     position: relative;
     bottom: -50px;
     padding-left: 50px;
   }
 
-  #chess-title {
+  #aok-title {
     font-size: 30px;
     background-color: whitesmoke;
   }
 
-  .chess-desc,
+  .aok-desc,
   .skills {
     font-size: 18px;
   }
@@ -741,11 +768,29 @@ body.contact {
     font-size: 18px;
   }
 
+  /* Chess */
+  .chess-sect {
+    text-align: center;
+    position: relative;
+    bottom: -150px;
+    padding-left: 50px;
+  }
+
+  #chess-title {
+    font-size: 30px;
+    background-color: whitesmoke;
+  }
+
+  .chess-desc,
+  .skills {
+    font-size: 18px;
+  }
+
   /* Interpreter */
   .int-sect {
     text-align: center;
     position: relative;
-    bottom: -150px;
+    bottom: -200px;
     padding-left: 50px;
   }
 
