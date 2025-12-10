@@ -130,6 +130,24 @@ body.contact {
 
 /*  PROJECTS PAGE */
 
+/* UGL */
+.ugl-sect {
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  padding-left: 50px;
+}
+
+#ugl-title {
+  font-size: 30px;
+  background-color: whitesmoke;
+}
+
+.ugl-desc,
+.skills {
+  font-size: 18px;
+}
+
 /* AOK */
 .aok-sect {
   text-align: center;
@@ -328,7 +346,8 @@ body.contact {
   .chess-sect,
   .conv-sect,
   .int-sect,
-  .aok-sect {
+  .aok-sect,
+  .ugl-sect {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -336,7 +355,8 @@ body.contact {
   .chess-sect img,
   .conv-sect img,
   .int-sect img,
-  .aok-sect img {
+  .aok-sect img,
+  .ugl-sect img {
     max-width: 100%;
     height: auto;
   }
@@ -344,7 +364,8 @@ body.contact {
   .chess-desc,
   .conv-desc,
   .int-desc,
-  .aok-desc {
+  .aok-desc,
+  .ugl-desc {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 14px;
@@ -459,7 +480,8 @@ body.contact {
   .chess-sect,
   .conv-sect,
   .int-sect,
-  .aok-sect {
+  .aok-sect,
+  .ugl-sect {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -467,7 +489,8 @@ body.contact {
   .chess-sect img,
   .conv-sect img,
   .int-sect img,
-  .aok-sect img {
+  .aok-sect img,
+  .ugl-sect img {
     max-width: 100%;
     height: auto;
   }
@@ -475,7 +498,8 @@ body.contact {
   .chess-desc,
   .conv-desc,
   .int-desc,
-  .aok-desc {
+  .aok-desc,
+  .ugl-desc {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 14px;
@@ -582,7 +606,8 @@ body.contact {
   .chess-sect,
   .conv-sect,
   .int-sect,
-  .aok-sect {
+  .aok-sect,
+  .ugl-sect {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -590,7 +615,8 @@ body.contact {
   .chess-sect img,
   .conv-sect img,
   .int-sect img,
-  .aok-sect img {
+  .aok-sect img,
+  .ugl-sect img {
     max-width: 100%;
     height: auto;
   }
@@ -598,7 +624,8 @@ body.contact {
   .chess-desc,
   .conv-desc,
   .int-desc,
-  .aok-desc {
+  .aok-desc,
+  .ugl-desc {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 14px;
@@ -731,6 +758,24 @@ body.contact {
   }
 
   /*  PROJECTS PAGE */
+
+  /* UGL */
+  .ugl-sect {
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    padding-left: 50px;
+  }
+
+  #ugl-title {
+    font-size: 30px;
+    background-color: whitesmoke;
+  }
+
+  .ugl-desc,
+  .skills {
+    font-size: 18px;
+  }
 
   /* AOK */
   .aok-sect {
