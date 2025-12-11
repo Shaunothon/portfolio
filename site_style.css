@@ -220,6 +220,16 @@ body.contact {
   font-size: 18px;
 }
 
+.project-video {
+  max-width: 400px;
+  max-height: 240px;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  padding: 0;
+  display: block;
+}
+
 /* Dropdown */
 .select-title {
   top: 0;
@@ -375,13 +385,19 @@ body.contact {
     z-index: 10;
     position: relative;
   }
-
+  /*
   video {
     max-width: 100%;
     height: auto;
-    margin: 0;
+  }
+  */
+
+  .project-video {
+    max-width: 100%;
+    margin: 15px auto;
     padding: 0;
   }
+
   /* contacts */
   .logos {
     position: relative;
@@ -512,12 +528,19 @@ body.contact {
     position: relative;
   }
 
+  /*
   video {
     max-width: 100%;
     height: auto;
-    margin: 0;
+  }
+  */
+
+  .project-video {
+    max-width: 100%;
+    margin: 15px auto;
     padding: 0;
   }
+
   /* contacts */
   .logos {
     position: relative;
@@ -639,10 +662,21 @@ body.contact {
     z-index: 10;
     position: relative;
   }
-
+  /*
   video {
     max-width: 100%;
     height: auto;
+  }
+  */
+
+  .project-video {
+    max-width: 400px;
+    max-height: 240px;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    padding: 0;
+    display: block;
   }
   /* contacts */
   .logos {
@@ -851,6 +885,16 @@ body.contact {
   .int-desc,
   .skills {
     font-size: 18px;
+  }
+
+  .project-video {
+    max-width: 400px;
+    max-height: 240px;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    padding: 0;
+    display: block;
   }
 
   /* Dropdown */
