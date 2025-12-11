@@ -352,6 +352,10 @@ body.contact {
     text-align: center;
   }
   /* projects */
+  #ugl-title {
+    display: inline-block;
+    margin-top: 30px;
+  }
 
   .chess-sect,
   .conv-sect,
@@ -620,6 +624,10 @@ body.contact {
     top: 650px;
   }
   /* projects */
+  #ugl-title {
+    display: inline-block;
+    margin-top: 30px;
+  }
 
   .chess-sect,
   .conv-sect,
