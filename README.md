@@ -1,15 +1,15 @@
 # portfolio_site
 
-This is my personal portfolio website showcasing my projects, skills, and experience.
+**portfolio**is my personal portfolio website showcasing my projects, skills, and experience.
 Built with HTML, CSS, and JavaScript, the site features animations powered by Anime.js
 and is fully responsive.
 
 ## Features
 
-- Fully responsive design
-- Smooth animations with Anime.js
-- Projects gallery with live links
-- Contact form integration
+- [x] Fully responsive design
+- [x] Smooth animations with Anime.js
+- [x] Projects gallery with live links
+- [x] Contact form integration
 
 ## Built With
 
@@ -18,6 +18,6 @@ and is fully responsive.
 - JavaScript (ES6+)
 - Anime.js for animations
 
-## License
+## Video Walkthrough
 
-This project is licensed under the MIT License.
+<img src="images/portfolio.gif" width=500 alt="portfolio">
