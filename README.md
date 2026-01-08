@@ -1,6 +1,6 @@
-# portfolio_site
+# Portfolio Website
 
-**portfolio** is my personal portfolio website showcasing my projects, skills, and experience.
+**SheffeyTech.com** is my personal portfolio website showcasing my projects, skills, and experience.
 Built with HTML, CSS, and JavaScript, the site features animations powered by Anime.js
 and is fully responsive.
 
